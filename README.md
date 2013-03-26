@@ -5,8 +5,8 @@ InPlace is a nifty little module for Excel that helps with merging tables of inf
 InPlace contains two macros:
 * _Align In Place_:
 For two tables of information __on the same sheet__ and __with sorted ids in the first column__ it will align the ids so that they match, inserting blank rows in either table whenever there is a mismatch.
-![Before alignment](https://github.com/isthisthat/InPlace/blob/master/screenshots/before.png)
-![After alignment](https://github.com/isthisthat/InPlace/blob/master/screenshots/after.png)
+![Before alignment](https://github.com/isthisthat/InPlace/master/screenshots/before.png)
+![After alignment](https://github.com/isthisthat/InPlace/master/screenshots/after.png)
 
 * _Match in Place_:
 For two tables of information __on the same sheet__ and with the first table containing blank rows, it will insert blank rows on the second table to match those of the first. This macro can be used, for example, after Align In Place has introduced blank rows in your first table, to match a second table of information to the first, preserving the gaps.
@@ -16,10 +16,10 @@ For two tables of information __on the same sheet__ and with the first table con
 2. In Excel, you need to enable the __Developer ribbon__, [as described here](http://msdn.microsoft.com/en-us/library/vstudio/bb608625.aspx)
 3. Click on the __Editor__ button to open up the __Project__ window
 4. Right-click anywhere in the white space of the Project window and select __Import File...__
-![Module in Project window](https://github.com/isthisthat/InPlace/blob/master/screenshots/module.png)
+![Module in Project window](https://github.com/isthisthat/InPlace/master/screenshots/module.png)
 5. Browse for __InPlace.bas__ (which you downloaded in step 1) and import it
 6. Prepare your Excel sheet (as described in the Overview) and click on __Macros__ (from the Developer ribbon) and either __AlignInPlace__ or __MatchInPlace__
-![Macros window](https://github.com/isthisthat/InPlace/blob/master/screenshots/macros.png)
+![Macros window](https://github.com/isthisthat/InPlace/master/screenshots/macros.png)
 
 ## Usage
 __NOTE:__ Macros cannot be undone. Make sure you save you file before attempting to use these scripts to save yourself from bad surprises!
@@ -38,7 +38,7 @@ This is the last column of the second table
 If you have headers in the first row, enter "2"
 
 Then you will get a confirmation dialog. Check if everything makes sense and click OK.
-![Confirmation dialog](https://github.com/isthisthat/InPlace/blob/master/screenshots/check.png)
+![Confirmation dialog](https://github.com/isthisthat/InPlace/master/screenshots/check.png)
 
 ### Match In Place
 Once you run the macro as described above, it will ask you for some information:
