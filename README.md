@@ -12,7 +12,7 @@ For two tables of information __on the same sheet__ and __with sorted ids in the
 For two tables of information __on the same sheet__ and with the first table containing blank rows, it will insert blank rows on the second table to match those of the first. This macro can be used, for example, after Align In Place has introduced blank rows in your first table, to match a second table of information to the first, preserving the gaps.
 
 ## Installation
-1. Download __InPlace.bas__ from this repository to your computer
+1. Download __InPlace.bas__ from [this repository](https://raw.github.com/isthisthat/InPlace/master/InPlace.bas) to your computer (File -> Save)
 2. In Excel, you need to enable the __Developer ribbon__, [as described here](http://msdn.microsoft.com/en-us/library/vstudio/bb608625.aspx)
 3. Click on the __Editor__ button to open up the __Project__ window
 4. Right-click anywhere in the white space of the Project window and select __Import File...__  
@@ -22,7 +22,8 @@ For two tables of information __on the same sheet__ and with the first table con
 ![Macros window](https://raw.github.com/isthisthat/InPlace/master/screenshots/macros.png)
 
 ## Usage
-__NOTE:__ Macros cannot be undone. Make sure you save you file before attempting to use these scripts to save yourself from bad surprises!
+__NOTE:__  
+__Macros cannot be undone. Make sure you save your file before attempting to use these scripts to save yourself from ugly surprises!__
 
 ### Align In Place
 Once you run the macro as described above, it will ask you for some information:
@@ -56,6 +57,6 @@ Since there are blank rows in your template column, there is no easy way to know
 Then you will get a confirmation dialog. Check if everything makes sense and click OK.
 
 ## Help
-I hope you find these macros helpful. If you need more help, please contact me (the author)! I'd be happy to hear from you.  
-Please submit feature requests and bug reports via github.
+I hope you find these macros useful. If you need more help, please [contact me](https://github.com/isthisthat)! I'd be happy to hear from you.  
+Please submit feature requests and bug reports [via github](https://github.com/isthisthat/InPlace/issues).
 
