@@ -5,6 +5,7 @@ InPlace is a nifty little module for Excel that helps with merging tables of inf
 InPlace contains two macros:
 * _Align In Place_:
 For two tables of information __on the same sheet__ and __with sorted ids in the first column__ it will align the ids so that they match, inserting blank rows in either table whenever there is a mismatch.  
+
 ![Before and after alignment](https://raw.github.com/isthisthat/InPlace/master/screenshots/before_after.png)
 
 * _Match in Place_:
